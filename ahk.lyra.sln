@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ahk.lyra.API", "src\ahk.lyra.API\ahk.lyra.API.csproj", "{520D1999-55A7-4E3F-969C-1348F52C3262}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D} = {6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D}
+		{7683303F-5696-45BF-9D30-245A624ADBA5} = {7683303F-5696-45BF-9D30-245A624ADBA5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ahk.lyra.Infra", "src\ahk.lyra.Infra\ahk.lyra.Infra.csproj", "{7683303F-5696-45BF-9D30-245A624ADBA5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D} = {6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ahk.lyra.Application", "src\ahk.lyra.Application\ahk.lyra.Application.csproj", "{6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9076D346-EAF7-42C5-8818-DD2C5A28AA73} = {9076D346-EAF7-42C5-8818-DD2C5A28AA73}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ahk.lyra.Domain", "src\ahk.lyra.Domain\ahk.lyra.Domain.csproj", "{9076D346-EAF7-42C5-8818-DD2C5A28AA73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520D1999-55A7-4E3F-969C-1348F52C3262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520D1999-55A7-4E3F-969C-1348F52C3262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520D1999-55A7-4E3F-969C-1348F52C3262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520D1999-55A7-4E3F-969C-1348F52C3262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7683303F-5696-45BF-9D30-245A624ADBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7683303F-5696-45BF-9D30-245A624ADBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7683303F-5696-45BF-9D30-245A624ADBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7683303F-5696-45BF-9D30-245A624ADBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E14EA4C-FE4B-4A32-AACC-5B5BD41A773D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9076D346-EAF7-42C5-8818-DD2C5A28AA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9076D346-EAF7-42C5-8818-DD2C5A28AA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9076D346-EAF7-42C5-8818-DD2C5A28AA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9076D346-EAF7-42C5-8818-DD2C5A28AA73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1787B698-DB7B-4394-B875-524B723A2259}
+	EndGlobalSection
+EndGlobal
